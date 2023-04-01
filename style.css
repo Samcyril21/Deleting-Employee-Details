@@ -1,0 +1,72 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+}
+h1{
+    color: rgb(103, 6, 25);
+    text-decoration: underline red;
+}
+#showemp{
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: rgb(103, 6, 25);
+    color: red;
+}
+#showemp:hover{
+    color:red  ;
+    background-color:white;
+    width: 160px;
+    height: 35px;
+    transition:0.5s;
+
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#container div{
+    width:250px;
+    height: 250px;
+    margin:2rem;
+    padding: 50px;
+    border-radius:50px ;
+    align-items: center;
+    justify-content: center;
+}
+#container div:nth-child(2n){
+    background-color:rgb(18, 126, 203);
+    color:rgb(90, 235, 12);
+}
+#container div:nth-child(2n-1){
+    background-color:rgb(214, 236, 9);
+    color: rgb(18, 126, 203); 
+}
+.classcont div>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 2rem;
+    background-color:rgb(103, 6, 25) ;
+    color: red;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 28%;
+}
+.classcont div>button:hover{
+    color:white;
+    background-color:rgba(10, 44, 96, 0.578);
+    width: 160px;
+    height: 35px;
+    transition:0.3s;
+}
+#success{
+    width: 150px;
+    height: 100px;
+}
+
